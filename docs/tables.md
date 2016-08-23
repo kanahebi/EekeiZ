@@ -4,11 +4,11 @@
 
 |論理名 | 物理名 | データ型|
 |------|-------|-------|
-|合計金額|total||
-|支払先|||
-|支払日|||
-|個数|||
-|単価|||
+|合計金額|total_price|int|
+|支払先|payment_destination|string|
+|支払日|payment_date|date|
+|個数|number|int|
+|単価|unit_price|int|
 |名前|name|string|
 
 ### pay_categories テーブル
